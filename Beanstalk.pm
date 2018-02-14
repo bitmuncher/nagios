@@ -22,7 +22,7 @@ USAGE
     shortname => 'beanstalkd',
     usage     => $usage,
     version   => $VERSION,
-    url       => 'http://search.cpan.org/dist/Nagios-Plugin-Beanstalk/check_beanstalkd',
+    url       => 'https://github.com/bitmuncher/nagios',
     license =>
       qq|This library is free software, you can redistribute it and/or modify\nit under the same terms as Perl itself.|,
   );
@@ -212,7 +212,7 @@ Monitoring::Plugin::Beanstalk - Nagios plugin to observe Beanstalkd queue server
 
   use Monitoring::Plugin::Beanstalk;
 
-  my $np = Nagios::Plugin::Beanstalk->new;
+  my $np = Monitoring::Plugin::Beanstalk->new;
   $np->run;
 
 =head1 DESCRIPTION
